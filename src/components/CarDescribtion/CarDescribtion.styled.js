@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MadalWrapper = styled.div`
+export const ModalWrapper = styled.div`
   position: relative;
   background-color: #ffffff;
   border-radius: 24px;
@@ -144,10 +144,12 @@ export const RentalItem = styled.li`
 
   & span {
     color: var(--buttonColor);
-    font-family: Montserrat;
-    font-size: 12px;
+  
     font-weight: 600;
-    line-height: 1.5;
     letter-spacing: -0.24px;
   }
+`;
+
+export const ItemMontserrat = styled.p`
+  font-family: 'Montserrat';
 `;

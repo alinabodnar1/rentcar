@@ -2,10 +2,8 @@ import styled from 'styled-components';
 import likeIconNormal from '../../images/normal.png';
 import likeIconActive from '../../images/active.png';
 
-export const CardItem = styled.div`
+export const CardItem = styled.li`
   position: relative;
-  display: flex;
-  flex-direction: column;
   width: 274px;
   height: 426px;
   margin-bottom: 20px;
@@ -22,7 +20,6 @@ export const CardImg = styled.img`
 export const MainInfo = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 14px;
   margin-bottom: 8px;
   font-weight: 500;
@@ -36,15 +33,12 @@ export const CarInfo = styled.ul`
 `;
 
 export const CarText = styled.li`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   color: var(--secondaryTextColor);
   font-size: 16px;
   line-height: 24px;
 `;
 
-export const ModelBlue = styled.div`
+export const ModelBlue = styled.li`
   color: var(--buttonColor);
   font-size: 16px;
 `;

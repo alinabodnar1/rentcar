@@ -9,8 +9,8 @@ import  Container  from '../components/Container';
             <Header>
                  <List>
                     <StyledLink to='/'>Home</StyledLink>
-                    <StyledLink to='/catalogue'>Catalogue</StyledLink>
-                    <StyledLink to='/favorites'>Favorites</StyledLink>
+                    <StyledLink to='catalogue'>Catalogue</StyledLink>
+                    <StyledLink to='favorites'>Favorites</StyledLink>
                 </List>
             </Header>
             <main>
