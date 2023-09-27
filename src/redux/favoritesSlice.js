@@ -5,10 +5,10 @@ export const favoriteSlice = createSlice({
   initialState: [],
   reducers: {
     plusToFavoriteList(state, action) {
-      return (state = [...state, action.payload]);
+      return state = [...state, action.payload];
     },
     minusToFavoriteList(state, action) {
-      return (state = state.filter(user => user !== action.payload));
+      return state = state.filter(user => user !== action.payload);
     },
   },
 });
